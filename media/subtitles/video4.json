@@ -1,0 +1,5 @@
+[
+  { "start": 0.5, "end": 3.2, "text": "Acesta este al patrulea videoclip." },
+  { "start": 3.5, "end": 6.0, "text": "Exemplu de subtitrare JSON." },
+  { "start": 6.5, "end": 10.0, "text": "Subtitrarile sunt desenate in canvas." }
+]
