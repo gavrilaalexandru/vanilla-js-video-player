@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video Player</title>
+    <link rel="stylesheet href="2_1084_GAVRILA_Alexandru.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="player-container">
+        <video id="videoElement" preload="metadata"></video>
+
+        <canvas id="videoCanvas" width="960" height="540"></canvas>
+      </div>
+
+      <div class="controls-panel">
+        <div class="playlist-container">
+          <h3>Playlist</h3>
+
+          <ul id="playlist"></ul>
+
+          <div class="playlist-actions">
+            <input type="file" id="fileInput" accept="video/*" multiple />
+            <div id="dropZone">Drag & Drop video aici</div>
+          </div>
+        </div>
+
+        <div class="settings-container">
+          <h3>Setari</h3>
+
+          <div class="setting">
+            <label for="effectSelect">Efect video</label>
+            <select id="effectSelect">
+              <option value="none">None</option>
+              <option value="grayscale">Grayscale</option>
+              <option value="invert">Invert</option>
+              <option value="sepia">Sepia</option>
+              <option value="blur">Blur</option>
+            </select>
+          </div>
+
+          <div class="setting">
+            <label>Subtitrari</label>
+            <select id="subtitleSelect">
+              <option value="none">Fara subtitrari</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="2_1084_GAVRILA_Alexandru.js"></script>
+  </body>
+</html>
